@@ -1,0 +1,116 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-left: 20px;
+  background-color: lightblue;
+}
+header {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("./images/home-obrazek.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  .navbar {
+    background-color: lightblue;
+    .brand {
+      font-size: 2rem;
+      color: black;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+      transition: border 0.2s;
+      border-bottom: 1px solid #f3efef;
+      margin-bottom: -1px;
+    }
+  }
+  .header-banner {
+    min-height: 100vh;
+    .btn {
+      font-size: 1.5rem;
+      border-radius: 2rem;
+    }
+  }
+  .header-content {
+    z-index: 2;
+  }
+}
+nav {
+  background-color: lightblue;
+
+}
+.fond-1 {
+  font-family: "Edu AU VIC WA NT Hand";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.fond-2 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+main, header {
+  background-color: lightblue;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.carousel-item img {
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+}
+.testimonial-section {
+  padding: 50px 0;
+}
+.card {
+  margin-bottom: 30px;
+}
+h2,
+h3 {
+  text-align: center;
+}
+h2,
+h3 {
+  text-align: center;
+}
+.font-1 {
+  font-family: "Roboto", sans-serif;
+}
+.font-2 {
+  font-family: "Oswald", sans-serif;
+}
+.font-3 {
+  font-family: "Lobster", cursive;
+}
+.title {
+  font-size: 2rem;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .img-thumbnail {
+    display: none;
+  }
+}
+.contact-section {
+  background-color: lightblue;
+  padding: 50px 0;
+}
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+col-12{
+  margin-left: 10px;
+}
+obr-center{
+  text-align: center;
+}
